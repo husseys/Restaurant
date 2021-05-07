@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
-<body data-new-gr-c-s-check-loaded="14.1008.0" data-gr-ext-installed="">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!--Header-->
+
+<body data-new-gr-c-s-check-loaded="14.1008.0" data-gr-ext-installed="" class = backgroundcolor>
+<nav class="navbar navbar-expand-lg navbar-midnightblue bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="Sean's%20Saladworks.html"><img src="/images/ssw.jpg" alt="logo" style="width:70px;"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,117 +27,81 @@
                 <li class="nav-item">
                     <a class="nav-link" href="Specials.html">Specials</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        More
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="Staff.html">Meet the staff</a></li>
-                        <li><a class="dropdown-item" href="Locations.html">Locations</a></li>
-                        <li><a class="dropdown-item" href="Socialmedia.html">Social Media</a></li>
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="Staff.html">Meet The Staff</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Socialmedia.html">Where To Find Us</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
+<!--Welcome Card-->
 
-<!--Menu-->
-<br>
-
-<div class="center">
-
-    <div class="title">
-        <b>Sean Hussey</b>
-        <br>
-        <br>
-        Owner / Head Chef
+<header class="Dining">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 text-center">
+                <div class="card" style="width: 16rem; height: 24rem;">
+                    <div class="card-body">
+                        <h3 class="DarkBlue" style="
+                        font-size: 30pt;"><b>Customer Note</b> </h3>
+                        <p class="card-text" style="color: darkslategray; padding: 18px; font-size: 17px;">We are also more than happy to book you a reservtion by phone at 206-281-2300. Parties greater than twelve will need to call in a week in advance to attain a reservation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="picture">
-        <img src="/images/Sean.png" width="52%" height=auto>
-    </div>
-
-</div>
-
-<br>
-
-<div class="center">
-
-    <div class="title">
-        <b>Skyler Vez</b>
-        <br>
-        <br>
-        Owner / Head Chef
-    </div>
-
-    <div class="picture">
-        <img src="/images/IMG_0809.JPG" width="55.5%" height=auto>
-    </div>
-
-</div>
-
-<br>
-
-<div class="center">
-
-    <div class="title">
-        <b>Helen Miller</b>
-        <br>
-        <br>
-        Sous Chef
-    </div>
-
-    <div class="picture">
-        <img src="/images/helen.jpg" width="42%" height=auto>
-    </div>
-
-</div>
-
-<br>
-
-<div class="center">
-
-    <div class="title">
-        <b>Chad Bostwick</b>
-        <br>
-        <br>
-        Chef de Partie
-    </div>
-
-    <div class="picture">
-        <img src="/images/Chad.jpg" width="68.5%" height=auto%>
-    </div>
-
-</div>
-
-<br>
-
-<div class="center">
-
-    <div class="title">
-        <b>Grayson Jones</b>
-        <br>
-        <br>
-        Kitchen Porter
-    </div>
-
-    <div class="picture">
-        <img src="/images/Grayson.jpeg" width="185%" height=auto>
-    </div>
-
-</div>
-
-<br>
-
+</header>
 
 <!--Bottom Box-->
 
 <div class="content">
     <div class="jumbotron text-center">
-        <p>We are thankful for our staff and for the abilities and experiences that has shaped their cooking expertise over the years. All these members - and more - have contributed to the founding and success of Sean's Salad Works.</p>
+
+
+        <script src="validate.js" defer></script>
+        <form>
+           <div class="forms" >
+            Enter Party Name:
+            <input type="text" name="name">
+           </div>
+
+            <br>
+            <div class="forms" >
+            Enter Number of People in Party:
+            <input type="number" name="partysize">
+            </div>
+
+            <br>
+            <div class="forms" >
+            Enter Reservation Date:
+            <input type="date" name="date">
+            </div>
+
+            <br>
+            <div class="forms" >
+            Enter Reservation Time:
+            <input type="time" name="time">
+            </div>
+
+            <br>
+            <div class="forms" >
+            I Accept the Terms of Dining:
+            <input type="checkbox" name="acceptTerms">
+            <br>
+            </div>
+
+            <br>
+            <input type="submit" name="submit" value="Submit Reservation">
+            <br>
+
+        </form>
+
     </div>
 </div>
 </body>
+
 </html>
